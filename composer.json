@@ -1,6 +1,6 @@
 {
     "name": "kryptonit3/sickrage",
-    "description": "PHP SickRage API Wrapper",
+    "description": "PHP Wrapper for SickRage / SickBeard API",
     "license": "MIT",
     "authors": [
         {
