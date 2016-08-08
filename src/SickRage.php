@@ -683,7 +683,7 @@ class SickRage
         $uriData = [
             'tvdbid' => $tvdbId
         ];
-        if ( $season ) { $uriData['season'] = $season; }
+        if ( is_numeric($season) ) { $uriData['season'] = $season; }
 
         try {
             $response = $this->_request(
